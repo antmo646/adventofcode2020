@@ -7,8 +7,7 @@ fs.readFile('./input.txt', 'UTF-8', function(err, data) {
     valArr.sort((a,b) => a-b)
     seen[valArr[valArr.length-1]] = 1
 console.time('someFunction')
-    var hej = 1*10023100*123123*12301230
-    //console.log(adapterWays(valArr))
+    console.log(adapterWays(valArr))
 console.timeEnd('someFunction')
 
 })
